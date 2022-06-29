@@ -20,6 +20,7 @@ This app uses Javascript, React, and HTML
 - 27-06-2022 4:45PM EST - Initial deployment to Netlify
 - 28-06-2022 7:30PM EST - Added form that creates data in the database and returns to page
 - 28-06-2022 9:30PM EST - Finished Delete feature which displays as a button and deletes the server data when pressed.
+- 29-06-2022 6:30PM EST - Added a new component to update the Book entry in the database
 
 ## Estimates
 
@@ -44,6 +45,14 @@ Time estimate: 2 hours\
 Start time: 7:30 pm EST\
 Finish time: 9:30 pm EST\
 Actual time: 2 hours
+
+-----------------------------
+
+Feature: Update a book entry\
+Time estimate: 1 hours\
+Start time: 5 pm EST\
+Finish time: 6:30 pm EST\
+Actual time: 1.5 hours
 
 ## Credit and Collaborations
 
