@@ -18,6 +18,7 @@ This app uses Javascript, React, and HTML
 ## Change Log
 
 27-06-2022 4:45PM EST - Initial deployment to Netlify
+28-06-2022 7:30PM EST - Added form that creates data in the database and returns to page
 
 ## Estimates
 
@@ -27,11 +28,11 @@ Start time: 7:45 pm EST
 Finish time: 9:05 pm EST
 Actual time: 1hr 20 min
 
-Feature:
-Time estimate:
-Start time:
-Finish time:
-Actual time:
+Feature: New Book Form
+Time estimate: 2 hour
+Start time: 5:30 pm EST
+Finish time: 7:30 pm EST
+Actual time: 2 hours
 
 ## Credit and Collaborations
 
