@@ -52,6 +52,24 @@ class BestBooks extends React.Component {
       console.log('error:', error.response.data);
     }
   }
+  
+  // added june 29
+  updateBooks = async (bookToUpdate) => {
+    try{
+      let url = `${process.env.REACT_APP_SERVER}/books/${bookToUpdate._id}`;
+      let updatedBook = await axios.put(url, bookToUpdate);
+      let updatedBookArray = this.state.books.map(existingBook => {
+        return existingBook._id === bookToUpdate._id 
+          ? updatedBook.data
+          : existingBook
+      });
+      this.setState({
+        books: updatedBookArray
+      })
+    } catch(error) {
+      console.log('error:', error.response.data);
+    }
+  }
 
   deleteBooks = async (id) => {
     try {
@@ -95,6 +113,7 @@ class BestBooks extends React.Component {
           <Bookshelf
             bookData={this.state.books}
             deleteBooks={this.deleteBooks}
+            updateBooks={this.updateBooks}
           />
         ) : (
           <h3>Bookshelf is currently empty</h3>
