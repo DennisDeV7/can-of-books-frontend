@@ -1,6 +1,6 @@
 # Can of Books
 
-**Author**: Dennis DeVries and Kris Dunning
+**Author**: Dennis DeVries and Kris Dunning\
 **Version**: 1.0.0
 
 ## Overview
@@ -17,21 +17,32 @@ This app uses Javascript, React, and HTML
 
 ## Change Log
 
-27-06-2022 4:45PM EST - Initial deployment to Netlify
-28-06-2022 7:30PM EST - Added form that creates data in the database and returns to page
+- 27-06-2022 4:45PM EST - Initial deployment to Netlify
+- 28-06-2022 7:30PM EST - Added form that creates data in the database and returns to page
+- 28-06-2022 9:30PM EST - Finished Delete feature which displays as a button and deletes the server data when pressed.
 
 ## Estimates
 
-Feature: Book Component (3) Front end Carousel
-Time estimate: 1 hour
-Start time: 7:45 pm EST
-Finish time: 9:05 pm EST
+Feature: Book Component (3) Front end Carousel\
+Time estimate: 1 hour\
+Start time: 7:45 pm EST\
+Finish time: 9:05 pm EST\
 Actual time: 1hr 20 min
 
-Feature: New Book Form
-Time estimate: 2 hour
-Start time: 5:30 pm EST
-Finish time: 7:30 pm EST
+-----------------------------
+
+Feature: New Book Form\
+Time estimate: 2 hour\
+Start time: 5:30 pm EST\
+Finish time: 7:30 pm EST\
+Actual time: 2 hours
+
+-----------------------------
+
+Feature: Delete Server Data\
+Time estimate: 2 hours\
+Start time: 7:30 pm EST\
+Finish time: 9:30 pm EST\
 Actual time: 2 hours
 
 ## Credit and Collaborations
@@ -47,12 +58,15 @@ Catch-up Plan: Submit a TA help ticket for further assistance
 
 ### Cooperative
 
-Strengths: Kris: Google, JavaScript, Flexibility
-Dennis: Organization, Timeliness, JavaScript
-How to utilize strengths: Pair programming
-Areas of desired strength: Dennis: JavaScript, CSS, React
-Kris: Mongo, Bootstrap
-Day to day development: Kris is the primary driver for the backend development. I am primarily responsible for the front end development
+Strengths:\
+Kris: Google, JavaScript, Flexibility\
+Dennis: Organization, Timeliness, JavaScript\
+How to utilize strengths: Pair programming\
+Areas of desired strength:\
+Dennis: JavaScript, CSS, React\
+Kris: Mongo, Bootstrap\
+Day to day development:\
+Kris is the primary driver for the backend development. I am primarily responsible for the front end development
 
 ### Conflict Resolution
 
