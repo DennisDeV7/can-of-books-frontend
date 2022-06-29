@@ -3,6 +3,7 @@ import axios from 'axios';
 import Bookshelf from './Bookshelf';
 import BookModal from './BookFormModal';
 import Button from 'react-bootstrap/Button';
+import './Bookshelf.css';
 
 
 class BestBooks extends React.Component {
@@ -52,6 +53,19 @@ class BestBooks extends React.Component {
     }
   }
 
+  deleteBooks = async (id) => {
+    try {
+      let url = `${process.env.REACT_APP_SERVER}/books/${id}`;
+      await axios.delete(url);
+      let updatedBooks = this.state.books.filter(book => book._id !== id);
+      this.setState({
+        books: updatedBooks
+      });
+    } catch(error) {
+      console.log('we have an error: ', error.response.data);
+    }
+  }
+
 
   handleOpen = () => {
     this.setState({
@@ -80,6 +94,7 @@ class BestBooks extends React.Component {
         {this.state.books.length ? (
           <Bookshelf
             bookData={this.state.books}
+            deleteBooks={this.deleteBooks}
           />
         ) : (
           <h3>Bookshelf is currently empty</h3>

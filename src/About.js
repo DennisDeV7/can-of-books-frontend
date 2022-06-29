@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Card from 'react-bootstrap/Card';
 
-class Profile extends Component {
+class About extends Component {
 
   render() {
     /* TODO: render information about the developers */
@@ -20,4 +20,4 @@ class Profile extends Component {
   }
 };
 
-export default Profile;
+export default About;
